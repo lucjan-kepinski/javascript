@@ -1,28 +1,17 @@
-var myVar = 10
+var myVar = "Shaun"
 // undefined
-myVar = myVar + 5
-// 15
-myVar
-// 15
-myVar += 5
-// 20
-myVar
-// 20
-myVar -= 10
-// 10
-myVar
-// 10
-myVar /= 2
-// 5
-myVar
-// 5
-myVar *= 5
-// 25
-myVar
-// 25
-myVar++
-// 25
-myVar
-// 26
-++myVar
-// 27
+document.write(myVar)
+// undefined
+console.log(myVar)
+// VM1989:1 Shaun
+// undefined
+document.write(10)
+// undefined
+console.log(50)
+// VM2091:1 50
+// undefined
+console.log(20 * 5)
+// VM2142:1 100
+// undefined
+document.write(20 / 5)
+// undefined
