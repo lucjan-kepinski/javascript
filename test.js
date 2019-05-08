@@ -1,40 +1,11 @@
-var x = 5
-// undefined
-x > 4
-// true
-x > 5
-// false
-x >= 5
-// true
-x >= 4
-// true
-x < 5
-// false
-x <= 5
-// true
-x == 4
-// false
-x == 5
-// true
-x === 5
-// true
-x = "5"
-// "5"
-x == 5
-// true
-x === 5
-// false
-x === "5"
-// true
-x = 5
-// 5
-x != 4
-// true
-x != 5
-// false
-x !== 5
-// false
-x = "5"
-// "5"
-x !== 5
-// true
+var myAge = 24;
+
+if (myAge < 18 || myAge > 30 || myAge === 25){
+ 
+    document.write("you aint coming!");
+
+} else{
+
+    document.write("You can come, you cool dude");
+
+}
