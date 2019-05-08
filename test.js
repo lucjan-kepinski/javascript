@@ -1,17 +1,32 @@
-var myVar = "Shaun"
+var iLikeMeat = true
 // undefined
-document.write(myVar)
-// undefined
-console.log(myVar)
-// VM1989:1 Shaun
-// undefined
-document.write(10)
-// undefined
-console.log(50)
-// VM2091:1 50
-// undefined
-console.log(20 * 5)
-// VM2142:1 100
-// undefined
-document.write(20 / 5)
-// undefined
+iLikeMeat
+// true
+iLikeMeat = "true"
+// "true"
+iLikeMeat = false
+// false
+7 > 5
+// true
+7 < 5
+// false
+7 = 7
+// VM2671:1 Uncaught ReferenceError: Invalid left-hand side in assignment
+7 == 7
+// true
+7 == 5
+// false
+0
+// 0
+Boolean(7 > 5)
+// true
+Boolean(6)
+// true
+Boolean(-5)
+// true
+Boolean(0)
+// false
+Boolean("hello")
+// true
+Boolean("")
+// false
